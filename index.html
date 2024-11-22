@@ -4,34 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Raydium Clone</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-  <header>
-    <div class="navbar">
-      <h1>Raydium Clone</h1>
+<body class="bg-gray-100 text-gray-900">
+  <header class="bg-blue-900 text-white py-4">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-3xl font-bold">Raydium Clone</h1>
       <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Swap</a></li>
-          <li><a href="#">Liquidity</a></li>
-          <li><a href="#">Farms</a></li>
+        <ul class="flex space-x-6">
+          <li><a href="#" class="hover:text-blue-300">Home</a></li>
+          <li><a href="#" class="hover:text-blue-300">Swap</a></li>
+          <li><a href="#" class="hover:text-blue-300">Liquidity</a></li>
+          <li><a href="#" class="hover:text-blue-300">Farms</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <main>
-    <section class="hero">
-      <h2>Experience Decentralized Trading</h2>
-      <p>Raydium Clone brings the best DeFi experience to your fingertips.</p>
-      <button>Start Now</button>
+    <section class="hero text-center bg-gradient-to-b from-blue-900 to-blue-600 text-white py-16">
+      <h2 class="text-4xl font-semibold">Experience Decentralized Trading</h2>
+      <p class="mt-4 text-xl">Raydium Clone brings the best DeFi experience to your fingertips.</p>
+      <button class="mt-8 px-8 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-700">Start Now</button>
     </section>
   </main>
 
-  <footer>
-    <p>© 2024 Raydium Clone</p>
+  <footer class="bg-gray-800 text-white py-4 text-center">
+    <p>&copy; 2024 Raydium Clone</p>
   </footer>
-  <script src="js/script.js"></script>
 </body>
 </html>
