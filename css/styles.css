@@ -42,6 +42,20 @@ body {
   cursor: pointer;
 }
 
+/* Center elements */
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+/* Smooth animations */
+button {
+  transition: background-color 0.3s ease;
+}
+
 footer {
   text-align: center;
   padding: 1rem;
